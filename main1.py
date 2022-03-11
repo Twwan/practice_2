@@ -16,13 +16,13 @@ def summ(a: int):
 
 
 def print_ans(ans: int):
-    print(f'Ответ: {ans}')
+    print(f'Ответ:{ans}')
 
 
 def main():
     a = get_input('a')
-    otv = summ(a)
-    print_ans(otv)
+    ans = summ(a)
+    print_ans(ans)
 
 if __name__ == '__main__':
     main()
