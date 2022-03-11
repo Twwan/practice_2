@@ -1,5 +1,5 @@
 # Лист 2 #9
-def get_input(a) -> float:
+def get_input(a) -> int:
     while True:
         print(f'Введите значение {a}: ')
         try:
@@ -8,14 +8,14 @@ def get_input(a) -> float:
             print(f'Введеная строка не является целым числом.')
 
 
-def summ(a: float):
+def summ(a: int):
     summ = 0
     for i in range(a, 101):
         summ += i
     return summ
 
 
-def print_ans(ans: float):
+def print_ans(ans: int):
     print(f'Ответ: {ans}')
 
 
